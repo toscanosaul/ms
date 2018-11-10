@@ -1,0 +1,230 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bechhofer, Santner, and Goldsman}{Bechhofer
+  et~al.}{1995}]{Bechhofer:1995}
+Bechhofer, R.~E., T.~Santner, and D.~M. Goldsman. 1995.
+\newblock {\em Design and Analysis of Experiments for Statistical Selection,
+  Screening and Multiple Comparisons.}
+\newblock New York, NY: J.Wiley and Sons.
+
+
+\bibitem[\protect\citeauthoryear{Bengio, Simard, and Frasconi}{Bengio
+  et~al.}{1994}]{yoshua94}
+Bengio, Y., P.~Simard, and P.~Frasconi. 1994.
+\newblock ``Learning Long-Term Dependencies with Gradient Descent Is
+  Difficult.''.
+\newblock {\em IEEE transactions on neural networks\/}~5(2):157--166.
+
+
+\bibitem[\protect\citeauthoryear{Boender and Kan}{Boender and
+  Kan}{1987}]{boender:1987}
+Boender, C. G.~E., and A.~Kan. 1987.
+\newblock ``BBayesian Stopping Rules for Multistart Global Optimization
+  Methods.''.
+\newblock {\em Mathematical Programming\/}~37(1):59--80.
+
+
+\bibitem[\protect\citeauthoryear{Brochu, Cora, and De~Freitas}{Brochu
+  et~al.}{2010}]{brochu2010tutorial}
+Brochu, E., V.~M. Cora, and N.~De~Freitas. 2010.
+\newblock ``A Tutorial on Bayesian Optimization of Expensive Cost Functions,
+  with Application to Active User Modeling and Hierarchical Reinforcement
+  Learning''.
+\newblock {\em arXiv preprint arXiv:1012.2599\/}.
+
+
+\bibitem[\protect\citeauthoryear{Chen, Lee, Tong, and Zhang}{Chen
+  et~al.}{2016}]{chen2016}
+Chen, X., J.~Lee, X.~Tong, and Y.~Zhang. 2016.
+\newblock ``Statistical Inference for Model Parameters in Stochastic Gradient
+  Descent.''.
+\newblock {\em arXiv preprint arXiv:1610.08637\/}.
+
+
+\bibitem[\protect\citeauthoryear{Domhan, Springenberg, and Hutter}{Domhan
+  et~al.}{2015}]{Hutter:2015}
+Domhan, T., J.~Springenberg, and F.~Hutter. 2015.
+\newblock ``Speeding Up Automatic Hyperparameter Optimization of Deep Neural
+  Networks by Extrapolation of Learning Curves''.
+\newblock In {\em IJCAI}, edited by\ Q.~Yang and M.~Wooldridge, Volume~15,
+  3460--3468.
+\newblock Palo Alto, California: AAAI Press.
+
+\bibitem[\protect\citeauthoryear{Forrester, Sobester, and Keane}{Forrester
+  et~al.}{2008}]{forrester2008engineering}
+Forrester, A., A.~Sobester, and A.~Keane. 2008.
+\newblock {\em Engineering Design via Surrogate Modelling: A Practical Guide}.
+\newblock Chichester, UK: John Wiley \& Sons.
+
+
+\bibitem[\protect\citeauthoryear{Frazier, Powell, and Dayanik}{Frazier
+  et~al.}{2009}]{frazier2009knowledge}
+Frazier, P., W.~Powell, and S.~Dayanik. 2009.
+\newblock ``The Knowledge-Gradient Policy for Correlated Normal Beliefs''.
+\newblock {\em INFORMS Journal on Computing\/}~21(4):599--613.
+
+
+\bibitem[\protect\citeauthoryear{Frazier, Powell, and Simão}{Frazier
+  et~al.}{2009}]{frazier2009calibration}
+Frazier, P., W.~Powell, and H.~Simão. 2009.
+\newblock ``Simulation Model Calibration with Correlated
+  Knowledge-Gradients.''.
+\newblock In {\em Proceedings of the 2009 Winter Simulation Conference}, edited
+  by\ M.~D. {Rossetti et al.},  339--351.
+\newblock Piscataway, New Jersey: Institute of Electrical and Electronics
+  Engineers, Inc.
+
+\bibitem[\protect\citeauthoryear{Fu}{Fu}{2015}]{fu2015}
+Fu, M.~C. 2015.
+\newblock ``Stochastic Gradient Estimation''.
+\newblock In {\em In Handbook of simulation optimization}, edited by\ M.~C. Fu,
+   105--147.
+\newblock New York, NY: Springer.
+
+\bibitem[\protect\citeauthoryear{Glasserman}{Glasserman}{2013}]{glasserman:mc}
+Glasserman, P. 2013.
+\newblock {\em Monte Carlo Methods in Financial Engineering}.
+\newblock New York, NY: Springer Science \& Business Media.
+
+
+\bibitem[\protect\citeauthoryear{Hennig and Schuler}{Hennig and
+  Schuler}{2012}]{entropySearch}
+Hennig, P., and C.~Schuler. 2012.
+\newblock ``Entropy Search for Information-Efficient Global Optimization.''.
+\newblock {\em Journal of Machine Learning Research\/}~13(6):1809--1837.
+
+
+\bibitem[\protect\citeauthoryear{Jones, Schonlau, and Welch}{Jones
+  et~al.}{1998}]{jones1998efficient}
+Jones, D.~R., M.~Schonlau, and W.~J. Welch. 1998.
+\newblock ``Efficient Global Optimization of Expensive Black-Box Functions''.
+\newblock {\em Journal of Global Optimization\/}~13(4):455--492.
+
+
+\bibitem[\protect\citeauthoryear{Kandasamy, Dasarathy, Schneider, and
+  Poczos}{Kandasamy et~al.}{2017}]{boca2017}
+Kandasamy, K., G.~Dasarathy, J.~Schneider, and B.~Poczos. 2017.
+\newblock ``Multi-Fidelity Bayesian Optimisation with Continuous
+  Approximations.''.
+\newblock {\em arXiv preprint arXiv:1703.06240.\/}.
+
+
+\bibitem[\protect\citeauthoryear{Kim and Nelson}{Kim and
+  Nelson}{2006}]{kim:20062}
+Kim, S., and B.~Nelson. 2006.
+\newblock ``Selecting the Best System''.
+\newblock In {\em Handbook in Operations Research and Management Science:
+  Simulation}, edited by\ S.~Henderson and B.~Nelson,  501--534.
+\newblock Elsevier, Amsterdam.
+
+\bibitem[\protect\citeauthoryear{Kim and Nelson}{Kim and
+  Nelson}{2007}]{kim:2007}
+Kim, S., and B.~Nelson. 2007.
+\newblock ``Recent Advances in Ranking and Selection''.
+\newblock In {\em Proceedings of the 2007 Winter Simulation Conference}, edited
+  by\ S.~{Henderson et al.},  162--172.
+\newblock Piscataway, New Jersey: Institute of Electrical and Electronics
+  Engineers, Inc.
+
+\bibitem[\protect\citeauthoryear{Kingma and Ba}{Kingma and Ba}{2014}]{adam}
+Kingma, D., and J.~Ba. 2014.
+\newblock ``Adam: A Method for Stochastic Optimization.''.
+\newblock {\em arXiv 1412.6980\/}.
+
+
+\bibitem[\protect\citeauthoryear{Klein, Falkner, Bartels, Hennig, and
+  Hutter}{Klein et~al.}{2016}]{klein2016fast}
+Klein, A., S.~Falkner, S.~Bartels, P.~Hennig, and F.~Hutter. 2016.
+\newblock ``Fast Bayesian Optimization of Machine Learning Hyperparameters on
+  Large Datasets''.
+\newblock {\em arXiv preprint arXiv:1605.07079\/}.
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and Hinton}{Krizhevsky
+  et~al.}{2012}]{cnn_cifar}
+Krizhevsky, A., I.~Sutskever, and G.~Hinton. 2012.
+\newblock ``Imagenet classification with deep convolutional neural networks''.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  1097--1105.
+\newblock Lake Tahoe, Nevada: Curran Associates, Inc.
+
+\bibitem[\protect\citeauthoryear{Kushner and Yin}{Kushner and
+  Yin}{2003}]{kushner}
+Kushner, H., and G.~Yin. 2003.
+\newblock {\em Stochastic Approximation and Recursive Algorithms and
+  Applications (Vol. 35).}
+\newblock New York, NY: Springer Science \& Business Media.
+
+
+\bibitem[\protect\citeauthoryear{Li, Jamieson, DeSalvo, Rostamizadeh, and
+  Talwalkar}{Li et~al.}{2016}]{li2016}
+Li, L., K.~Jamieson, G.~DeSalvo, A.~Rostamizadeh, and A.~Talwalkar. 2016.
+\newblock ``Hyperband: A Novel Bandit-Based Approach to Hyperparameter
+  Optimization.''.
+\newblock {\em arXiv preprint arXiv:1603.06560.\/}.
+
+
+\bibitem[\protect\citeauthoryear{Mart{\'i}, Lozano, Mendiburu, and
+  Hernando}{Mart{\'i} et~al.}{2016}]{marti:2016}
+Mart{\'i}, R., J.~Lozano, A.~Mendiburu, and L.~Hernando. 2016.
+\newblock ``Multi-Start Methods''.
+\newblock In {\em Handbook of Heuristics},  1--21.
+\newblock New York, NY: Springer International Publishing.
+
+\bibitem[\protect\citeauthoryear{Murphy}{Murphy}{2012}]{murphy2012machine}
+Murphy, K.~P. 2012.
+\newblock {\em Machine Learning: A Probabilistic Perspective}.
+\newblock Cambridge, MA: MIT press.
+
+
+\bibitem[\protect\citeauthoryear{Neal}{Neal}{1997}]{Neal:GPBayesian}
+Neal, R. 1997.
+\newblock ``Monte Carlo Implementation of Gaussian Process Models for Bayesian
+  Regression and Classification''.
+\newblock {\em arXiv physics/9701026\/}.
+
+
+\bibitem[\protect\citeauthoryear{Neal}{Neal}{2003}]{radford2003Slice}
+Neal, R.~M. 2003.
+\newblock ``Slice Sampling''.
+\newblock {\em Annals of Statistics\/}~31(3):705--741.
+
+
+\bibitem[\protect\citeauthoryear{Nemirovski and Yudin}{Nemirovski and
+  Yudin}{1978}]{sgd:Nemirovski}
+Nemirovski, A., and D.~Yudin. 1978.
+\newblock ``On Cezari's Convergence of the Steepest Descent Method for
+  Approximating Saddle Point of Convex-Concave Functions.''.
+\newblock {\em Soviet Math\/}~19.
+
+
+\bibitem[\protect\citeauthoryear{Powell}{Powell}{2007}]{powell2007approximate}
+Powell, W.~B. 2007.
+\newblock {\em Approximate Dynamic Programming: Solving the Curses of
+  Dimensionality}, Volume 703.
+\newblock Hoboken, NJ: John Wiley \& Sons.
+
+
+\bibitem[\protect\citeauthoryear{Schoen}{Schoen}{1991}]{schoen:1991}
+Schoen, F. 1991.
+\newblock ``Stochastic Techniques for Global Optimization: A Survey of Recent
+  Advances''.
+\newblock {\em Journal of Global Optimization\/}~1(3):207--228.
+
+
+\bibitem[\protect\citeauthoryear{Swersky, Snoek, and Adams}{Swersky
+  et~al.}{2014}]{Swersky:2014}
+Swersky, K., J.~Snoek, and R.~Adams. 2014.
+\newblock ``Freeze-Thaw Bayesian Optimization.''.
+\newblock {\em arXiv preprint arXiv:1406.3896\/}.
+
+
+\bibitem[\protect\citeauthoryear{Toscano-Palmerin and
+  Frazier}{Toscano-Palmerin, S. and P. I. Frazier}{2018}]{MLS}
+Toscano-Palmerin, S. and P. I. Frazier 2018.
+\newblock ``Most Likely to Succeed Code''.
+\newblock
+  \url{https://github.com/toscanosaul/bayesian_quadrature_optimization/tree/master/multi_start}.
+\newblock Accessed May 10\textsuperscript{th}, 2018.
+
+\end{thebibliography}

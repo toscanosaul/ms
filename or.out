@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
+\BOOKMARK [1][-]{section.2}{THE 1-DIMENSIONAL SGD-GP STATISTICAL MODEL ON THE PATH OF SGD}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Inference Over M\(n\) Given Hyperparameter }{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Inference Over M\(n\), Marginalizing over Hyperparameter }{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Inference Over f\(X_\)}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{THE MOST LIKELY TO SUCCEED ALLOCATION RULE}{}% 6
+\BOOKMARK [1][-]{section.4}{THE GENERAL MOST LIKELY TO SUCCEED ALLOCATION RULE}{}% 7
+\BOOKMARK [1][-]{section.5}{NUMERICAL EXPERIMENTS}{}% 8
+\BOOKMARK [2][-]{subsection.5.1}{A Concave Objective Function}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.2}{An Objective Function with Many Local Maxima}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.3}{Objective Function with a Vanishing Gradient}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.4}{The 20-Dimensional Rosenbrock Function}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.5}{Comparison of SGD-GP to a Statistical Model with Exact Gradients}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{CONCLUSION}{}% 14
+\BOOKMARK [1][-]{appendix.A}{APPENDICES}{}% 15

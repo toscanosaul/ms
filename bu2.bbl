@@ -1,0 +1,65 @@
+\begin{thebibliography}{}
+
+\bibitem[Adler and Taylor(2007)Adler and Taylor]{adlerRandomFields}
+Adler, R.~J. and Taylor, J.~E. (2007).
+\newblock {\em Random Fields and Geometry\/}.
+\newblock Springer.
+
+\bibitem[Bartle(1966)Bartle]{bartle}
+Bartle, R.~G. (1966).
+\newblock {\em The Elements of Integration\/}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Frazier {\em et~al.}(2009)Frazier, Powell, and
+  Dayanik]{frazier2009knowledge}
+Frazier, P., Powell, W., and Dayanik, S. (2009).
+\newblock The knowledge-gradient policy for correlated normal beliefs.
+\newblock {\em INFORMS Journal on Computing\/}, {\bf 21}(4), 599--613.
+
+\bibitem[Ingo and Christmann(2008)Ingo and Christmann]{steinwart2008svm}
+Ingo, S. and Christmann, A. (2008).
+\newblock {\em Support Vector Machines\/}.
+\newblock Springer.
+
+\bibitem[Jones {\em et~al.}(1998)Jones, Schonlau, and
+  Welch]{jones1998efficient}
+Jones, D.~R., Schonlau, M., and Welch, W.~J. (1998).
+\newblock Efficient global optimization of expensive black-box functions.
+\newblock {\em Journal of Global Optimization\/}, {\bf 13}(4), 455--492.
+
+\bibitem[Kallenberg(1997)Kallenberg]{Kallenberg1997}
+Kallenberg, O. (1997).
+\newblock {\em Foundations of Modern Probability\/}.
+\newblock Springer.
+
+\bibitem[Neveu(1965)Neveu]{neveuBook}
+Neveu, J. (1965).
+\newblock {\em Mathematical Foundations of the Calculus of Probability\/}.
+
+\bibitem[{Pollard, D.}(2016){Pollard, D.}]{pollardMini}
+{Pollard, D.} (2016).
+\newblock {MiniEmpirical}.
+\newblock Chapter 5,
+  \url{http://www.stat.yale.edu/~pollard/Books/Mini/Versions.pdf}.
+\newblock Online; accessed December 2017.
+
+\bibitem[Swersky {\em et~al.}(2013)Swersky, Snoek, and Adams]{swersky2013multi}
+Swersky, K., Snoek, J., and Adams, R.~P. (2013).
+\newblock Multi-task {B}ayesian optimization.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  2004--2012.
+
+\bibitem[Vitale(2000)Vitale]{vitale2000}
+Vitale, R. (2000).
+\newblock Some comparisons for gaussian processes.
+\newblock {\em Proc. Amer. Math. Soc.}, {\bf 128}, 3043–--3046.
+
+\bibitem[Xie {\em et~al.}(2012)Xie, Frazier, Sankaran, Marsden, and
+  Elmohamed]{Xie:2012}
+Xie, J., Frazier, P., Sankaran, S., Marsden, A., and Elmohamed, S. (2012).
+\newblock Optimization of computationally expensive simulations with gaussian
+  processes and parameter uncertainty: Application to cardiovascular surgery.
+\newblock In {\em 50th Annual Allerton Conference on Communication, Control,
+  and Computing\/}.
+
+\end{thebibliography}

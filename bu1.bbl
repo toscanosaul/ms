@@ -1,0 +1,361 @@
+\begin{thebibliography}{}
+
+\bibitem[Bardenet {\em et~al.}(2013)Bardenet, Brendel, K{\'e}gl, and
+  Sebag]{bardenet2013collaborative}
+Bardenet, R., Brendel, M., K{\'e}gl, B., and Sebag, M. (2013).
+\newblock Collaborative hyperparameter tuning.
+\newblock In {\em 30th International Conference on Machine Learning (ICML
+  2013)\/}, volume~28, pages 199--207. ACM Press.
+
+\bibitem[Barthelemy and Haftka(1993)Barthelemy and Haftka]{barthelemy1993}
+Barthelemy, J.-F. and Haftka, R. (1993).
+\newblock Approximation concepts for optimum structural design - a review.
+\newblock {\em Structural and Multidisciplinary Optimization\/}, {\bf 5},
+  129--144.
+
+\bibitem[Bartle(1966)Bartle]{bartle}
+Bartle, R.~G. (1966).
+\newblock {\em The Elements of Integration\/}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Bect {\em et~al.}(2016)Bect, Bachoc, and Ginsbourger]{bect2016}
+Bect, J., Bachoc, F., and Ginsbourger, D. (2016).
+\newblock A supermartingale approach to gaussian process based sequential
+  design of experiments.
+\newblock {\em arXiv 1608.01118\/}.
+
+\bibitem[Bonilla {\em et~al.}(2007)Bonilla, Chai, and
+  Williams]{bonilla2007multi}
+Bonilla, E.~V., Chai, K.~M., and Williams, C. (2007).
+\newblock Multi-task gaussian process prediction.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  153--160.
+
+\bibitem[Booker {\em et~al.}(1998)Booker, Dennis, Frank, Serafini, and
+  Torczon]{booker1998}
+Booker, A., Dennis, J., Frank, P., Serafini, D., and Torczon, V. (1998).
+\newblock Optimization using surrogate objectives on a helicopter test example.
+\newblock {\em In Computational Methods for Optimal Design and Control\/},
+  pages 49--58.
+
+\bibitem[Brochu {\em et~al.}(2010)Brochu, Cora, and
+  De~Freitas]{brochu2010tutorial}
+Brochu, E., Cora, V.~M., and De~Freitas, N. (2010).
+\newblock A tutorial on {B}ayesian optimization of expensive cost functions,
+  with application to active user modeling and hierarchical reinforcement
+  learning.
+\newblock {\em arXiv preprint arXiv:1012.2599\/}.
+
+\bibitem[Bull(2011)Bull]{bull2011}
+Bull, A.~D. (2011).
+\newblock Convergence rates of efficient global optimization algorithms.
+\newblock {\em Journal of Machine Learning Research\/}, {\bf 12}, 2879--2904.
+
+\bibitem[Cohn(1996)Cohn]{cohn1996}
+Cohn, D. (1996).
+\newblock Neural networks exploration using optimal experimental design.
+\newblock {\em Neural Networks\/}, {\bf 6}(9), 1071--1083.
+
+\bibitem[{Cornell University Library}(2017){Cornell University Library}]{arxiv}
+{Cornell University Library} (2017).
+\newblock arxiv website.
+\newblock \url{https://arxiv.org/}.
+
+\bibitem[Dennis and Torczon(1997)Dennis and Torczon]{torczon1997}
+Dennis, J. and Torczon, V. (1997).
+\newblock Managing approximation models in optimization.
+\newblock {\em Multidisciplinary Design Optimization: State-of-the-Art\/}, {\bf
+  5}, 330--347.
+
+\bibitem[Forrester {\em et~al.}(2008)Forrester, Sobester, and
+  Keane]{forrester2008engineering}
+Forrester, A., Sobester, A., and Keane, A. (2008).
+\newblock {\em Engineering Design via Surrogate Modelling: A Practical
+  Guide\/}.
+\newblock John Wiley \& Sons.
+
+\bibitem[Forrester {\em et~al.}(2007)Forrester, S{\'o}bester, and
+  Keane]{forrester2007multi}
+Forrester, A.~I., S{\'o}bester, A., and Keane, A.~J. (2007).
+\newblock Multi-fidelity optimization via surrogate modelling.
+\newblock In {\em Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences\/}, volume 463, pages 3251--3269. The Royal
+  Society.
+
+\bibitem[Frazier {\em et~al.}(2009)Frazier, Powell, and
+  Dayanik]{frazier2009knowledge}
+Frazier, P., Powell, W., and Dayanik, S. (2009).
+\newblock The knowledge-gradient policy for correlated normal beliefs.
+\newblock {\em INFORMS Journal on Computing\/}, {\bf 21}(4), 599--613.
+
+\bibitem[Glasserman(2003)Glasserman]{glasserman2003monte}
+Glasserman, P. (2003).
+\newblock {\em Monte {C}arlo Methods in Financial Engineering\/}, volume~53.
+\newblock Springer Science \& Business Media.
+
+\bibitem[Goovaerts(1997)Goovaerts]{goovaerts1997geostatistics}
+Goovaerts, P. (1997).
+\newblock {\em Geostatistics for Natural Resources Evaluation\/}.
+\newblock Oxford University Press on Demand.
+
+\bibitem[Groot {\em et~al.}(2010)Groot, Birlutiu, and
+  Heskes]{groot2010bayesian}
+Groot, P., Birlutiu, A., and Heskes, T. (2010).
+\newblock Bayesian {M}onte {C}arlo for the global optimization of expensive
+  functions.
+\newblock In {\em 19th European Conference on Artificial Intelligence
+  (ECAI)\/}, pages 249--254.
+
+\bibitem[Henderson and Pasupathy(2018)Henderson and Pasupathy]{simopt}
+Henderson, S.~G. and Pasupathy, R. (2018).
+\newblock Simopt.
+\newblock \url{http://simopt.org/}.
+
+\bibitem[Howard(1966)Howard]{Ho66}
+Howard, R. (1966).
+\newblock {Information Value Theory}.
+\newblock {\em IEEE Transactions on Systems Science and Cybernetics\/}, {\bf
+  2}(1), 22--26.
+
+\bibitem[Hutter {\em et~al.}(2011)Hutter, Hoos, and
+  Leyton-Brown]{hutter2011sequential}
+Hutter, F., Hoos, H.~H., and Leyton-Brown, K. (2011).
+\newblock Sequential model-based optimization for general algorithm
+  configuration.
+\newblock In {\em Learning and Intelligent Optimization\/}, pages 507--523.
+  Springer.
+
+\bibitem[Jin {\em et~al.}(2017)Jin, Ge, Netrapalli, Kakade, and
+  Jordan]{jordan:saddle}
+Jin, C., Ge, R., Netrapalli, P., Kakade, S., and Jordan, M. (2017).
+\newblock How to escape saddle points efficiently.
+\newblock {\em arXiv preprint arXiv:1703.00887\/}.
+
+\bibitem[Jones {\em et~al.}(1998)Jones, Schonlau, and
+  Welch]{jones1998efficient}
+Jones, D.~R., Schonlau, M., and Welch, W.~J. (1998).
+\newblock Efficient global optimization of expensive black-box functions.
+\newblock {\em Journal of Global Optimization\/}, {\bf 13}(4), 455--492.
+
+\bibitem[Kersting {\em et~al.}(2007)Kersting, Plagemann, Pfaff, and
+  Burgard]{Kersting2007}
+Kersting, K., Plagemann, C., Pfaff, P., and Burgard, W. (2007).
+\newblock Most likely heteroscedastic gaussian process regression.
+\newblock In {\em 24th International Conference on Machine Learning (ICML
+  2007)\/}, volume~28, pages 393--400. ACM Press.
+
+\bibitem[Kim and Nelson(2007)Kim and Nelson]{kim:2007}
+Kim, S. and Nelson, B. (2007).
+\newblock Recent advances in ranking and selection.
+\newblock In {\em Proceedings of the 2007 Winter Simulation Conference\/},
+  pages 162--172. IEEE.
+
+\bibitem[Kingma and Ba(2014)Kingma and Ba]{adam}
+Kingma, D. and Ba, J. (2014).
+\newblock Adam: A method for stochastic optimization.
+\newblock {\em arXiv 1412.6980\/}.
+
+\bibitem[Krizhevsky {\em et~al.}(2012)Krizhevsky, Sutskever, and
+  Hinton]{cnncifar}
+Krizhevsky, A., Sutskever, I., and Hinton, G. (2012).
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  1097--1105.
+
+\bibitem[Krizhevsky {\em et~al.}(2018)Krizhevsky, Nair, and Hinton]{cifar}
+Krizhevsky, A., Nair, V., and Hinton, G. (2018).
+\newblock The cifar-10 dataset.
+\newblock \url{https://www.cs.toronto.edu/~kriz/cifar.html}.
+
+\bibitem[Lam(2008)Lam]{lam2008}
+Lam, C. (2008).
+\newblock Sequential adaptive designs in computer experiments for response
+  surface model fit.
+\newblock Doctoral dissertation, The Ohio State University.
+
+\bibitem[Lehman {\em et~al.}(2004)Lehman, Santner, and Notz]{lehman2004}
+Lehman, J., Santner, T., and Notz, W. (2004).
+\newblock Designing computer experiments to determine robust control variables.
+\newblock {\em Statistica Sinica\/}, pages 571--590.
+
+\bibitem[Liem {\em et~al.}(2014)Liem, Kenway, and Martins]{MLA}
+Liem, R.~P., Kenway, G., and Martins, J. (2014).
+\newblock Multimission aircraft fuel-burn minimization via multipoint
+  aerostructural optimization.
+\newblock {\em AIAA Journal\/}.
+
+\bibitem[Lukić and Beder(2001)Lukić and Beder]{beder2001}
+Lukić, M. and Beder, J. (2001).
+\newblock Stochastic processes with sample paths in reproducing kernel hilbert
+  spaces.
+\newblock {\em Transactions of the American Mathematical Society\/}, {\bf
+  353}(10), 3945--3969.
+
+\bibitem[Mahajan and van Ryzin(2001)Mahajan and van Ryzin]{ryzin2001Stocking}
+Mahajan, S. and van Ryzin, G. (2001).
+\newblock Stocking retail assortments under dynamic consumer substitution.
+\newblock {\em Operations Research\/}, {\bf 49}(3), 334--351.
+
+\bibitem[Marzat {\em et~al.}(2013)Marzat, Walter, and
+  Piet-Lahanier]{marzat2013}
+Marzat, J., Walter, E., and Piet-Lahanier, H. (2013).
+\newblock Worst-case global optimization of black-box functions through kriging
+  and relaxation.
+\newblock {\em Journal of Global Optimization\/}, {\bf 55}(4), 707.
+
+\bibitem[Milgrom and Segal(2002)Milgrom and Segal]{milgrom}
+Milgrom, P. and Segal, I. (2002).
+\newblock Envelope theorems for arbitrary choice sets.
+\newblock {\em Econometrica\/}, {\bf 70}(2), 583--601.
+
+\bibitem[Mnih and Salakhutdinov(2008)Mnih and Salakhutdinov]{mnih2008}
+Mnih, A. and Salakhutdinov, R.~R. (2008).
+\newblock Probabilistic matrix factorization.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  1257--1264.
+
+\bibitem[Mockus(1989)Mockus]{Mockus1989}
+Mockus, J. (1989).
+\newblock {\em Bayesian Approach to Global Optimization: Theory and
+  Applications\/}.
+\newblock Kluwer Academic, Dordrecht.
+
+\bibitem[Motivate~International(2015)Motivate~International]{citibike}
+Motivate~International, I. (2015).
+\newblock Citi {B}ike website.
+\newblock \url{http://www.citibikenyc.com/}.
+\newblock [accessed May 2015].
+
+\bibitem[Mueller and Shoemaker(2014)Mueller and Shoemaker]{shoemaker2014}
+Mueller, J. and Shoemaker, C.~A. (2014).
+\newblock Influence of ensemble surrogate models and sampling strategy on the
+  solution quality of algorithms for computationally expensive black-box global
+  optimization problems.
+\newblock {\em Journal of Global Optimization\/}, {\bf 60}(2), 123--144.
+
+\bibitem[Murphy(2012)Murphy]{murphy2012machine}
+Murphy, K.~P. (2012).
+\newblock {\em Machine Learning: A Probabilistic Perspective\/}.
+\newblock MIT press.
+
+\bibitem[Neal(1997)Neal]{Neal:GPBayesian}
+Neal, R. (1997).
+\newblock Monte carlo implementation of gaussian process models for bayesian
+  regression and classification.
+\newblock {\em arXiv physics/9701026\/}.
+
+\bibitem[Neal(2003)Neal]{radford2003Slice}
+Neal, R.~M. (2003).
+\newblock Slice sampling.
+\newblock {\em Annals of Statistics\/}, pages 705--741.
+
+\bibitem[Ng {\em et~al.}(2011)Ng, Tian, and Tang]{dirichletbook}
+Ng, K.~W., Tian, G.-L., and Tang, M.-L. (2011).
+\newblock {\em Dirichlet and Related Distributions\/}.
+\newblock Wiley Series in Probability and Statistics.
+
+\bibitem[O'Hagan(1991)O'Hagan]{o1991bayes}
+O'Hagan, A. (1991).
+\newblock Bayes--hermite quadrature.
+\newblock {\em Journal of Statistical Planning and Inference\/}, {\bf 29}(3),
+  245--260.
+
+\bibitem[Poloczek {\em et~al.}(2017)Poloczek, Wang, and
+  Frazier]{poloczek2017multi}
+Poloczek, M., Wang, J., and Frazier, P. (2017).
+\newblock Multi-information source optimization.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  4291--4301.
+
+\bibitem[Powell and Frazier(2008)Powell and Frazier]{PowellFrazier2008}
+Powell, W. and Frazier, P. (2008).
+\newblock {\em Optimal Learning\/}.
+\newblock INFORMS.
+
+\bibitem[{PyTorch core team}(2018){PyTorch core team}]{pytorch}
+{PyTorch core team} (2018).
+\newblock Pytorch.
+\newblock \url{http://pytorch.org/}.
+
+\bibitem[Rasmussen and Williams(2006)Rasmussen and Williams]{RaWi06}
+Rasmussen, C. and Williams, C. (2006).
+\newblock {\em Gaussian Processes for Machine Learning\/}.
+\newblock MIT Press, Cambridge, MA.
+
+\bibitem[Ross(2012)Ross]{rossSimulation}
+Ross, S.~M. (2012).
+\newblock {\em Simulation\/}.
+\newblock Academic Press, 5 edition.
+
+\bibitem[Sacks {\em et~al.}(1989)Sacks, Welch, Mitchell, and Wynn]{sacks1989}
+Sacks, J., Welch, W.~J., Mitchell, T.~J., and Wynn, H.~P. (1989).
+\newblock Design and analysis of computer experiments.
+\newblock {\em Statistical Science\/}, {\bf 4}(4), 409--423.
+
+\bibitem[Sankaran and Marsden(2010)Sankaran and Marsden]{marsden2010}
+Sankaran, S. and Marsden, A. (2010).
+\newblock The impact of uncertainty on shape optimization of idealized bypass
+  graft models in unsteady flow.
+\newblock {\em Physics of Fluids\/}, {\bf 22}(12).
+
+\bibitem[Seeger {\em et~al.}(2005)Seeger, Teh, and
+  Jordan]{seeger2005semiparametric}
+Seeger, M., Teh, Y.-W., and Jordan, M. (2005).
+\newblock Semiparametric latent factor models.
+\newblock Technical Report EPFL-REPORT-161465.
+
+\bibitem[Shahriari {\em et~al.}(2016)Shahriari, Swersky, Wang, Adams, and
+  De~Freitas]{reviewBO}
+Shahriari, B., Swersky, K., Wang, Z., Adams, R., and De~Freitas, N. (2016).
+\newblock Taking the human out of the loop: A review of bayesian optimization.
+\newblock {\em Proceedings of the IEEE\/}, {\bf 104}(1), 148--175.
+
+\bibitem[Snoek {\em et~al.}(2012)Snoek, Larochelle, and
+  Adams]{snoek2012practical}
+Snoek, J., Larochelle, H., and Adams, R.~P. (2012).
+\newblock Practical {B}ayesian optimization of machine learning algorithms.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  2951--2959.
+
+\bibitem[Swersky {\em et~al.}(2013)Swersky, Snoek, and Adams]{swersky2013multi}
+Swersky, K., Snoek, J., and Adams, R.~P. (2013).
+\newblock Multi-task {B}ayesian optimization.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  2004--2012.
+
+\bibitem[Toscano-Palmerin and Frazier(2016)Toscano-Palmerin and Frazier]{MCQMC}
+Toscano-Palmerin, S. and Frazier, P.~I. (2016).
+\newblock Stratified {B}ayesian optimization.
+\newblock In {\em Proceedings of the 2016 Conference on Monte Carlo and
+  Quasi-Monte Carlo Methods (MCQMC)\/}.
+\newblock arXiv:1602.02338.
+
+\bibitem[Williams {\em et~al.}(2000)Williams, Santner, and
+  Notz]{williams2000sequential}
+Williams, B.~J., Santner, T.~J., and Notz, W.~I. (2000).
+\newblock Sequential design of computer experiments to minimize integrated
+  response functions.
+\newblock {\em Statistica Sinica\/}, pages 1133--1152.
+
+\bibitem[Wu {\em et~al.}(2017)Wu, Poloczek, Wilson, and Frazier]{wugradientsbo}
+Wu, J., Poloczek, M., Wilson, A., and Frazier, P. (2017).
+\newblock Bayesian optimization with gradients.
+\newblock In {\em Advances in Neural Information Processing Systems\/}, pages
+  5273--5284.
+
+\bibitem[Xie {\em et~al.}(2012)Xie, Frazier, Sankaran, Marsden, and
+  Elmohamed]{Xie:2012}
+Xie, J., Frazier, P., Sankaran, S., Marsden, A., and Elmohamed, S. (2012).
+\newblock Optimization of computationally expensive simulations with gaussian
+  processes and parameter uncertainty: Application to cardiovascular surgery.
+\newblock In {\em 50th Annual Allerton Conference on Communication, Control,
+  and Computing\/}.
+
+\bibitem[Zhu {\em et~al.}(1997)Zhu, Byrd, Lu, and Nocedal]{byrd:1997}
+Zhu, C., Byrd, R., Lu, P., and Nocedal, J. (1997).
+\newblock Algorithm 778: L-bfgs-b: Fortran subroutines for large-scale
+  bound-constrained optimization.
+\newblock {\em ACM Transactions on Mathematical Software (TOMS)\/}, {\bf
+  23}(4), 550--560.
+
+\end{thebibliography}
