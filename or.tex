@@ -423,6 +423,8 @@ f\left(x\right)\approx \frac{1}{2}\sum_{i=1}^{d}a_{i}\left(x_{i}-b_{i}\right)^{2
 The previous parameters $a_{i}$, $b_{i}$ and $c$ are updated on the fly. In order to do that, we use the following linear relationship: $\nabla f\left(x\right)_{i}\approx a_{i}(x_{i}-b_{i})$. We then estimate each $a_{i}$ and $b_{i}$ via linear regression on the fly: we maintain exponential moving averages for each dimension $\left\{ \bar{h}_{k,i},\bar{x}_{k,i},\bar{x^{2}}_{k,i},\bar{xh}_{k,i}\right\} $ where
 $h_{k,i}=\nabla f\left(x_{k}\right)_{i}$. Similarly, we maintain exponential moving averages of $\tilde{f}\left(x_{k}\right)-\frac{1}{2}\sum_{i=1}^{d}a_{i}\left(x_{k,i}-b_{i}\right)^{2}$ to estimate $c$ where $\tilde{f}\left(x_{k}\right)$ is the noisy observation of $f(x_{k})$.
 
+Consequently, the previous arguments can be used to infer $f(X_\infty)$, and then use this statistical model within our allocation rule \name\ (\abbrv).
+
 
 
 \section{NUMERICAL EXPERIMENTS}
