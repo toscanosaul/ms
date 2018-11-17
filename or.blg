@@ -30,45 +30,45 @@ Warning--no number and no volume in Swersky:2014
 Warning--page numbers missing in Swersky:2014
 Warning--no number and no volume in multi_start
 Warning--page numbers missing in multi_start
-You've used 31 entries,
+You've used 32 entries,
             2956 wiz_defined-function locations,
-            817 strings with 10071 characters,
-and the built_in function-call counts, 22588 in all, are:
-= -- 1915
-> -- 1688
+            824 strings with 10193 characters,
+and the built_in function-call counts, 23338 in all, are:
+= -- 1984
+> -- 1740
 < -- 9
-+ -- 503
-- -- 559
-* -- 2031
-:= -- 4024
-add.period$ -- 101
-call.type$ -- 31
-change.case$ -- 201
-chr.to.int$ -- 31
-cite$ -- 57
-duplicate$ -- 626
-empty$ -- 1346
-format.name$ -- 651
-if$ -- 4300
++ -- 521
+- -- 579
+* -- 2098
+:= -- 4155
+add.period$ -- 104
+call.type$ -- 32
+change.case$ -- 207
+chr.to.int$ -- 32
+cite$ -- 58
+duplicate$ -- 643
+empty$ -- 1391
+format.name$ -- 675
+if$ -- 4442
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 189
-num.names$ -- 310
-pop$ -- 184
+missing$ -- 37
+newline$ -- 195
+num.names$ -- 320
+pop$ -- 188
 preamble$ -- 1
-purify$ -- 418
+purify$ -- 431
 quote$ -- 0
-skip$ -- 680
+skip$ -- 702
 stack$ -- 0
-substring$ -- 1018
-swap$ -- 227
+substring$ -- 1061
+swap$ -- 232
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 660
+type$ -- 684
 warning$ -- 26
-while$ -- 283
+while$ -- 294
 width$ -- 0
-write$ -- 473
+write$ -- 487
 (There were 26 warnings)
