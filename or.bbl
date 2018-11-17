@@ -205,6 +205,13 @@ Powell, W.~B. 2007.
 \newblock Hoboken, NJ: John Wiley \& Sons.
 
 
+\bibitem[\protect\citeauthoryear{Robbins and Monro}{Robbins and
+  Monro}{1951}]{robbins}
+Robbins, H., and S.~Monro. 1951.
+\newblock ``A stochastic approximation method''.
+\newblock {\em The Annals of Mathematical Statistics\/}~22(3):400--407.
+
+
 \bibitem[\protect\citeauthoryear{Schoen}{Schoen}{1991}]{schoen:1991}
 Schoen, F. 1991.
 \newblock ``Stochastic Techniques for Global Optimization: A Survey of Recent

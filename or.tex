@@ -142,7 +142,7 @@ and allocation rules based on two statistical models for learning curves from th
 \section{INTRODUCTION}
 \label{sec:intro}
 
-Stochastic gradient descent (SGD) methods \citep{sgd:Nemirovski,adam} are widely used algorithms for training machine learning algorithms \citep{cnn_cifar,murphy2012machine} and optimization via simulation \citep{fu2015}.
+Stochastic gradient descent (SGD) methods \citep{robbins,sgd:Nemirovski,adam} are widely used algorithms for training machine learning algorithms \citep{cnn_cifar,murphy2012machine} and optimization via simulation \citep{fu2015}.
 Unfortunately, when the objective function is non-convex, these methods may converge to a saddle point or local optimum, instead of a global optimum. Furthermore, even when the objective function is convex, SGD may converge slowly to a global optimum when started from a disadvantageous location. 
 
 A common solution to these challenges is multi-start SGD \citep{schoen:1991,marti:2016}, in which several starting points are chosen uniformly at random, and an SGD algorithm is operated separately starting from each.
