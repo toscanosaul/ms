@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 NOV 2018 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 NOV 2018 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,41 +832,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 164.
- [2]
-Overfull \hbox (22.88548pt too wide) in paragraph at lines 182--184
-[]\T1/ptm/m/n/12 Our nu-mer-i-cal ex-per-i-ments use the 20-dimensional Rosen-b
-rock func-tion, and three one-dimensional
- []
-
-[3]
+ [2] [3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 192.
- [4] [5] [6]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 191.
+ [4] [5]
+[6]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 240.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 240.
+(hyperref)                removing `math shift' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 240.
+(hyperref)                removing `math shift' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 240.
+(hyperref)                removing `math shift' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 240.
+(hyperref)                removing `\theta' on input line 239.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 240.
+(hyperref)                removing `math shift' on input line 239.
 
 
-Overfull \hbox (9.11346pt too wide) in paragraph at lines 250--253
+Overfull \hbox (9.11346pt too wide) in paragraph at lines 249--252
 \T1/ptm/m/n/12 where $\OT1/ztmcm/m/n/12 ^^F[]$ \T1/ptm/m/n/12 is the para-met-r
 ic pos-i-tive ker-nel of the Ornstein-Uhlenbeck pro-cess, which is $\OT1/ztmcm/
 m/n/12 ^^F[](\OML/ztmcm/m/it/12 n; n[]\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 ^^
@@ -874,7 +869,7 @@ R\OT1/ztmcm/m/n/12 ) :=
  []
 
 [7]
-Overfull \hbox (100.75562pt too wide) in paragraph at lines 266--278
+Overfull \hbox (100.75562pt too wide) in paragraph at lines 265--277
 \T1/ptm/m/n/12 where the vec-tors $\OML/ztmcm/m/it/12 ^^M[]$ \T1/ptm/m/n/12 and
  $\OML/ztmcm/m/it/12 c[]$ \T1/ptm/m/n/12 are de-fined by $\OML/ztmcm/m/it/12 ^^
 M[] \OT1/ztmcm/m/n/12 := []$\T1/ptm/m/n/12 ,
@@ -882,60 +877,60 @@ M[] \OT1/ztmcm/m/n/12 := []$\T1/ptm/m/n/12 ,
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 281.
+(hyperref)                removing `\theta' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 280.
 
 
-Overfull \hbox (5.16356pt too wide) in alignment at lines 285--289
+Overfull \hbox (5.16356pt too wide) in alignment at lines 284--288
  [][][] []
  []
 
 [8]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 320.
+(hyperref)                removing `math shift' on input line 319.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\infty' on input line 320.
+(hyperref)                removing `\infty' on input line 319.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 320.
+(hyperref)                removing `math shift' on input line 319.
 
 [9] [10] [11] [12] <plot_quadratic.pdf, id=289, 569.15106pt x 381.3426pt>
 File: plot_quadratic.pdf Graphic file (type pdf)
 
 <use plot_quadratic.pdf>
-Package pdftex.def Info: plot_quadratic.pdf used on input line 463.
+Package pdftex.def Info: plot_quadratic.pdf used on input line 462.
 (pdftex.def)             Requested size: 150.3206pt x 151.77206pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 463.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 462.
 
 <quadratic_stat_approx_lipschitz.pdf, id=290, 531.14568pt x 419.60172pt>
 File: quadratic_stat_approx_lipschitz.pdf Graphic file (type pdf)
 
 <use quadratic_stat_approx_lipschitz.pdf>
 Package pdftex.def Info: quadratic_stat_approx_lipschitz.pdf used on input line
- 467.
+ 466.
 (pdftex.def)             Requested size: 150.32448pt x 151.76718pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 467--467
+Underfull \hbox (badness 4886) in paragraph at lines 466--466
 []\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
  []
 
@@ -943,24 +938,24 @@ Underfull \hbox (badness 4886) in paragraph at lines 467--467
 File: greedy_uniform_quadratic.pdf Graphic file (type pdf)
 
 <use greedy_uniform_quadratic.pdf>
-Package pdftex.def Info: greedy_uniform_quadratic.pdf used on input line 473.
+Package pdftex.def Info: greedy_uniform_quadratic.pdf used on input line 472.
 (pdftex.def)             Requested size: 150.3248pt x 144.54074pt.
  [13 <./plot_quadratic.pdf> <./quadratic_stat_approx_lipschitz.pdf> <./greedy_u
 niform_quadratic.pdf>]
 <plot_problem5.pdf, id=352, 552.64561pt x 377.98485pt>
 File: plot_problem5.pdf Graphic file (type pdf)
  <use plot_problem5.pdf>
-Package pdftex.def Info: plot_problem5.pdf used on input line 494.
+Package pdftex.def Info: plot_problem5.pdf used on input line 493.
 (pdftex.def)             Requested size: 150.32098pt x 151.768pt.
 
 <stat_model_problem5.pdf, id=353, 528.71814pt x 418.89038pt>
 File: stat_model_problem5.pdf Graphic file (type pdf)
 
 <use stat_model_problem5.pdf>
-Package pdftex.def Info: stat_model_problem5.pdf used on input line 499.
+Package pdftex.def Info: stat_model_problem5.pdf used on input line 498.
 (pdftex.def)             Requested size: 150.3232pt x 151.77196pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 499--499
+Underfull \hbox (badness 4886) in paragraph at lines 498--498
 []\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
  []
 
@@ -971,7 +966,7 @@ File: problem5_MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf
 )
  <use problem5_MLS_random__uniform_swk_best_solution.pdf>
 Package pdftex.def Info: problem5_MLS_random__uniform_swk_best_solution.pdf use
-d on input line 505.
+d on input line 504.
 (pdftex.def)             Requested size: 150.32124pt x 144.54347pt.
  [14 <./plot_problem5.pdf> <./stat_model_problem5.pdf> <./problem5_MLS_random__
 uniform_swk_best_solution.pdf>] <plot_problem6.pdf, id=402, 561.2211pt x 372.16
@@ -979,18 +974,18 @@ uniform_swk_best_solution.pdf>] <plot_problem6.pdf, id=402, 561.2211pt x 372.16
 File: plot_problem6.pdf Graphic file (type pdf)
 
 <use plot_problem6.pdf>
-Package pdftex.def Info: plot_problem6.pdf used on input line 529.
+Package pdftex.def Info: plot_problem6.pdf used on input line 528.
 (pdftex.def)             Requested size: 150.32426pt x 151.76505pt.
 
 <statistical_model_problem6.pdf, id=403, 526.6288pt x 425.85478pt>
 File: statistical_model_problem6.pdf Graphic file (type pdf)
 
 <use statistical_model_problem6.pdf>
-Package pdftex.def Info: statistical_model_problem6.pdf used on input line 534.
+Package pdftex.def Info: statistical_model_problem6.pdf used on input line 533.
 
 (pdftex.def)             Requested size: 150.32379pt x 151.76756pt.
 
-Underfull \hbox (badness 4886) in paragraph at lines 534--534
+Underfull \hbox (badness 4886) in paragraph at lines 533--533
 []\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
  []
 
@@ -1000,14 +995,14 @@ File: MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf)
 
 <use MLS_random__uniform_swk_best_solution.pdf>
 Package pdftex.def Info: MLS_random__uniform_swk_best_solution.pdf used on inpu
-t line 540.
+t line 539.
 (pdftex.def)             Requested size: 150.32726pt x 144.53845pt.
  [15 <./plot_problem6.pdf> <./statistical_model_problem6.pdf> <./MLS_random__un
 iform_swk_best_solution.pdf>]
 <new_plot.pdf, id=451, 433.62pt x 289.08pt>
 File: new_plot.pdf Graphic file (type pdf)
  <use new_plot.pdf>
-Package pdftex.def Info: new_plot.pdf used on input line 565.
+Package pdftex.def Info: new_plot.pdf used on input line 564.
 (pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
  [16 <./new_plot.pdf>] [17]
 \openout4 = `bu.aux'.
@@ -1025,17 +1020,17 @@ master / multi _ start$[]\T1/ptm/m/n/10.95 .  Ac-cessed
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 675.
  [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 675.
  (./or.aux
 Package cleveref Info: loaded `english' language definitions on input line 25.
  (./bu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 675.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 675.
 Package rerunfilecheck Info: File `or.out' has not changed.
 (rerunfilecheck)             Checksum: B9563B92EE79B60D8C3C73B007A6AC15;997.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 675.
  ) 
 Here is how much of TeX's memory you used:
  18849 strings out of 492995
@@ -1044,7 +1039,7 @@ Here is how much of TeX's memory you used:
  22064 multiletter control sequences out of 15000+600000
  78554 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,46p,10353b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,46p,10353b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -1059,7 +1054,7 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on or.pdf (21 pages, 553766 bytes).
+Output written on or.pdf (21 pages, 553771 bytes).
 PDF statistics:
  602 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams
