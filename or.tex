@@ -131,11 +131,13 @@ Cornell University, Ithaca, NY 14853\\
 
 
 \begin{abstract} 
-Multistart stochastic gradient descent methods are widely used for gradient-based stochastic global optimization.  While these methods are effective relative to other approaches for these challenging problems, they seem to waste computational resources: when several starts converge to the same local optimum, only one produces useful information; when a start converges to a local optimum worse than an incumbent solution, it fails to produce useful information.  
+Multistart stochastic gradient descent methods are widely used for gradient-based stochastic global optimization.  While these methods are effective relative to other approaches for these challenging problems, they seem to waste computational resources: starts often converge to local optima or stationary points that are the same or worse than those found by other starts, failing to produce useful information.  
 We propose a rule for allocating computational effort across starts, \name\ (\abbrv), which uses computation more efficiently by allocating more resources to the most promising starts.  This allocation rule is based on a novel Gaussian-Process-based statistical model (SGD-GP) for a start's limiting objective value.  Unlike previously proposed statistical models, ours agrees with known convergence rates for SGD. 
-Numerical results show our approach uses an order of magnitude less computation than the best of four benchmarks:
+Numerical results show our approach improves significantly over four benchmarks:
 equal and random allocation rules used widely in practice,
 and allocation rules based on two statistical models for learning curves from the machine learning literature.
+Our approach often recovers a significantly better global solution than the best of these benchmarks 
+and achieves bencharks' solution quality with an order of magnitude less computation.
 \end{abstract}
 
 
@@ -149,7 +151,7 @@ A common solution to these challenges is multi-start SGD \citep{schoen:1991,mart
 (We use the term ``start'' to refer both to an individual starting point, and to the path of SGD starting from an individual point.)
 If the number of starts is large enough relative to the number of local optima in the problem, and their starting positions are sufficiently diverse, multi-start SGD is likely to find a global optimum.  
 
-Multi-start SGD, however, often seems to waste computation.  Several starts may converge to the same local optimum, providing essentially the same information about that local optimum's location and value as a single start among them, but consuming several-fold more computation. Also, starts that converge to sub-optimal local optima or stationary points contribute little to the final solution.
+Multi-start SGD, however, often seems to waste computation.  Several starts may converge to the same local optimum, providing essentially the same information about that local optimum's location and value as a single start among them, but consuming several-fold more computation. Also, starts converging to local optima or stationary points worse than an incumbent contribute little to the final solution.
 While simply reducing the number of starts risks failing to find the global optimum, intuition suggests that substantial computational savings might be achieved by intelligently allocating computational effort across starts: if a start seems unlikely to provide a new globally optimal solution, then we can compute fewer additional iterations and instead allocate more computational effort toward the most promising starts.
 
 
@@ -162,14 +164,27 @@ In this paper, we make two contributions. The first is a rule for sequentially a
 The second contribution is this statistical model, which we call SGD-GP.  Using the iterates $x_1,\ldots,x_n$ from one start of SGD, this statistical model calculates a posterior probability distribution on the value of the objective at the limit of the iterate sequence, $f(x_\infty)$, and on the scaled distance between the current iterate and this limit, $\sqrt{n}(x_n - x_\infty)$.
 This statistical model is derived from asymptotic theory for stochastic gradient descent \citep{kushner}, which shows 
 that $\sqrt{n}(x_{n}-x_{\infty})$ behaves asymptotically like an Ornstein-Uhlenbeck process under some conditions.
-This use of the asymptotic theory stands in contrast to existing approaches for modeling paths from SGD, discussed in more detail below. In some cases these existing approaches assume exponential rates of convergence \stedit{while SGD does not converge exponentially fast}, and none to our knowledge have been shown to be compatible with SGD's known asymptotic behavior.
+This use of the asymptotic theory stands in contrast to existing approaches for modeling paths from SGD, discussed in more detail below. In some cases these existing approaches assume exponential rates of convergence while SGD does not converge exponentially fast, and none to our knowledge have been shown to be compatible with SGD's known asymptotic behavior.
+We also provide an implementation of both \abbrv\ and SGD-GP on github \citep{MLS}.
+Our approach often recovers a significantly better global solution than the best of these benchmarks 
+and achieves bencharks' solution quality with an order of magnitude less computation.
 
-We demonstrate that \abbrv\ together with SGD-GP substantially outperforms an Equal Allocation (EA) \stedit{and Random Allocation rules} for allocating effort across starts, \abbrv\ together with \stedit{the statistical model from \cite{Swersky:2014}}, and the statistical model from \cite{Hutter:2015}.  EA is a meaningful benchmark because this is typically how effort is allocated in multistart SGD today. \stedit{Swersky's and Domhan's statistical models are popular statistical models for learning curves in the machine learning community.}
-Our demonstrations use \stedit{the 20-dimensional Rosenbrock function}, and three one-dimensional objective functions: a concave function (we maximize rather than minimize), a multi-modal function, and an objective whose gradient is nearly zero over a substantial part of the interval.  This last problem is intended to replicate problems with many stationary points, as is believed to arise when training the weights of neural networks
-\citep{yoshua94}.
-We also provide an implementation of our method on github \citep{MLS}.
+We demonstrate that \abbrv\ together with SGD-GP substantially outperforms the best of four benchmarks:
+Equal Allocation;
+Random Allocation;
+and two statistical models for learning curves from the machine learning literature \citep{Swersky:2014,Hutter:2015}
+together with the MLS allocation rule.
+While equal and random allocation are often considered weak benchmarks in the ranking and selection literature \citep{kim:20062}, they are more meaningful here because no other methods have been proposed for allocating effort in SGD 
+to our knowledge,
+making them the state of the art.  (\cite{Swersky:2014,Hutter:2015} considered other application settings, and their allocation rules do not apply directly to the setting we consider here.)
 
-\stedit{This journal paper extends to a previous conference paper, \cite{multi_start}. This paper removes two severe limitations of that conference paper: the assumptions of one-dimensional inputs and noise-free observations. Here, we extend the statistical model and allocation rule of that conference paper to to high-dimensional spaces and possibly noisy observations. This makes our method relevant in practical problems, including training machine learning algorithms such as neural networks that usually have millions of parameters. In addition, we also add new experiments and clarify exposition.}
+Our numerical experiments use the 20-dimensional Rosenbrock function, and three one-dimensional objective functions: a concave function (we maximize rather than minimize), a multi-modal function, and an objective whose gradient is nearly zero over a substantial part of the interval.  This last problem is intended to replicate problems with many stationary points, as is believed to arise when training the weights of neural networks \citep{yoshua94}.
+Our 20-dimensional problem uses both noisy 
+
+This journal paper extends a previous conference paper, \cite{multi_start}. Here, we remove two severe restrictions in that conference paper: one-dimensional inputs and noise-free observations of the objective function.  While we build on the version of SGD-GP proposed in that conference paper, handling multiple dimensions and noisy objective function observations requires substantial additional innovation.  Removing these restrictions makes our method relevant in practical problems.
+% PF: I'm going to comment this out for now, until we actually demonstrate this.
+% , including training machine learning algorithms such as neural networks that usually have millions of parameters.
+The current journal version also adds new experiments and clarifies exposition.
 
 
 \paragraph{Related Work:}
