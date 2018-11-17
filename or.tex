@@ -116,7 +116,7 @@
 
 
 
-\title{EFFORT ALLOCATION AND STATISTICAL INFERENCE\\ FOR MULTISTART STOCHASTIC GRADIENT DESCENT}
+\title{Effort Allocation and Statistical Inference\\ for Multistart Stochastic Gradient Descent}
 
 
 \author{Saul Toscano-Palmerin, Peter I. Frazier\\
@@ -131,8 +131,11 @@ Cornell University, Ithaca, NY 14853\\
 
 
 \begin{abstract} 
-Multistart stochastic gradient descent methods are widely used for gradient-based stochastic global optimization.  While these methods are effective relative to other approaches for these challenging problems, they seem to waste computational resources: when several starts are run to convergence at the same local optimum, all but one fail to produce useful information; when a start converges to a local optimum worse than an incumbent solution, it also fails to produce useful information.  
-We propose a rule for allocating computational effort across starts, \name\ (\abbrv), which allocates more resources to the most promising starts.  This allocation rule is based on a novel Gaussian-Process-based statistical model (SGD-GP) for a start's limiting objective value.  Unlike previously proposed statistical models, ours agrees with known convergence rates for SGD. Numerical results show our approach outperforms significantly equal and random allocation of effort across starts, and two benchmarks from the machine learning literature on modeling learning curves.
+Multistart stochastic gradient descent methods are widely used for gradient-based stochastic global optimization.  While these methods are effective relative to other approaches for these challenging problems, they seem to waste computational resources: when several starts converge to the same local optimum, only one produces useful information; when a start converges to a local optimum worse than an incumbent solution, it fails to produce useful information.  
+We propose a rule for allocating computational effort across starts, \name\ (\abbrv), which uses computation more efficiently by allocating more resources to the most promising starts.  This allocation rule is based on a novel Gaussian-Process-based statistical model (SGD-GP) for a start's limiting objective value.  Unlike previously proposed statistical models, ours agrees with known convergence rates for SGD. 
+Numerical results show our approach uses an order of magnitude less computation than the best of four benchmarks:
+equal and random allocation rules used widely in practice,
+and allocation rules based on two statistical models for learning curves from the machine learning literature.
 \end{abstract}
 
 
@@ -147,7 +150,7 @@ A common solution to these challenges is multi-start SGD \citep{schoen:1991,mart
 If the number of starts is large enough relative to the number of local optima in the problem, and their starting positions are sufficiently diverse, multi-start SGD is likely to find a global optimum.  
 
 Multi-start SGD, however, often seems to waste computation.  Several starts may converge to the same local optimum, providing essentially the same information about that local optimum's location and value as a single start among them, but consuming several-fold more computation. Also, starts that converge to sub-optimal local optima or stationary points contribute little to the final solution.
-While simply reducing the number of starts risks failing to find the global optimum, intuition suggests that substantial computational savings might be achieved by intelligently allocating computational effort across starts: if a start seems unlikely to provide a new globally optimal solution, then we can spend less effort computing additional iterations, and focus instead on allocating effort toward the most promising starts.
+While simply reducing the number of starts risks failing to find the global optimum, intuition suggests that substantial computational savings might be achieved by intelligently allocating computational effort across starts: if a start seems unlikely to provide a new globally optimal solution, then we can compute fewer additional iterations and instead allocate more computational effort toward the most promising starts.
 
 
 %\paragraph{Contributions:}
