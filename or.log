@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 NOV 2018 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 NOV 2018 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -913,7 +913,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 319.
 
-[9] [10] [11] [12] <plot_quadratic.pdf, id=289, 569.15106pt x 381.3426pt>
+[9] [10] [11] [12] <plot_quadratic.pdf, id=295, 569.15106pt x 381.3426pt>
 File: plot_quadratic.pdf Graphic file (type pdf)
 
 <use plot_quadratic.pdf>
@@ -922,7 +922,7 @@ Package pdftex.def Info: plot_quadratic.pdf used on input line 462.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 462.
 
-<quadratic_stat_approx_lipschitz.pdf, id=290, 531.14568pt x 419.60172pt>
+<quadratic_stat_approx_lipschitz.pdf, id=296, 531.14568pt x 419.60172pt>
 File: quadratic_stat_approx_lipschitz.pdf Graphic file (type pdf)
 
 <use quadratic_stat_approx_lipschitz.pdf>
@@ -934,7 +934,7 @@ Underfull \hbox (badness 4886) in paragraph at lines 466--466
 []\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
  []
 
-<greedy_uniform_quadratic.pdf, id=291, 532.9282pt x 403.70976pt>
+<greedy_uniform_quadratic.pdf, id=297, 532.9282pt x 403.70976pt>
 File: greedy_uniform_quadratic.pdf Graphic file (type pdf)
 
 <use greedy_uniform_quadratic.pdf>
@@ -942,13 +942,13 @@ Package pdftex.def Info: greedy_uniform_quadratic.pdf used on input line 472.
 (pdftex.def)             Requested size: 150.3248pt x 144.54074pt.
  [13 <./plot_quadratic.pdf> <./quadratic_stat_approx_lipschitz.pdf> <./greedy_u
 niform_quadratic.pdf>]
-<plot_problem5.pdf, id=352, 552.64561pt x 377.98485pt>
+<plot_problem5.pdf, id=358, 552.64561pt x 377.98485pt>
 File: plot_problem5.pdf Graphic file (type pdf)
  <use plot_problem5.pdf>
 Package pdftex.def Info: plot_problem5.pdf used on input line 493.
 (pdftex.def)             Requested size: 150.32098pt x 151.768pt.
 
-<stat_model_problem5.pdf, id=353, 528.71814pt x 418.89038pt>
+<stat_model_problem5.pdf, id=359, 528.71814pt x 418.89038pt>
 File: stat_model_problem5.pdf Graphic file (type pdf)
 
 <use stat_model_problem5.pdf>
@@ -960,7 +960,7 @@ Underfull \hbox (badness 4886) in paragraph at lines 498--498
  []
 
 
-<problem5_MLS_random__uniform_swk_best_solution.pdf, id=354, 561.36974pt x 427.
+<problem5_MLS_random__uniform_swk_best_solution.pdf, id=360, 561.36974pt x 427.
 28122pt>
 File: problem5_MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf
 )
@@ -969,7 +969,7 @@ Package pdftex.def Info: problem5_MLS_random__uniform_swk_best_solution.pdf use
 d on input line 504.
 (pdftex.def)             Requested size: 150.32124pt x 144.54347pt.
  [14 <./plot_problem5.pdf> <./stat_model_problem5.pdf> <./problem5_MLS_random__
-uniform_swk_best_solution.pdf>] <plot_problem6.pdf, id=402, 561.2211pt x 372.16
+uniform_swk_best_solution.pdf>] <plot_problem6.pdf, id=409, 561.2211pt x 372.16
 46pt>
 File: plot_problem6.pdf Graphic file (type pdf)
 
@@ -977,7 +977,7 @@ File: plot_problem6.pdf Graphic file (type pdf)
 Package pdftex.def Info: plot_problem6.pdf used on input line 528.
 (pdftex.def)             Requested size: 150.32426pt x 151.76505pt.
 
-<statistical_model_problem6.pdf, id=403, 526.6288pt x 425.85478pt>
+<statistical_model_problem6.pdf, id=410, 526.6288pt x 425.85478pt>
 File: statistical_model_problem6.pdf Graphic file (type pdf)
 
 <use statistical_model_problem6.pdf>
@@ -990,7 +990,7 @@ Underfull \hbox (badness 4886) in paragraph at lines 533--533
  []
 
 
-<MLS_random__uniform_swk_best_solution.pdf, id=404, 561.07248pt x 416.31857pt>
+<MLS_random__uniform_swk_best_solution.pdf, id=411, 561.07248pt x 416.31857pt>
 File: MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf)
 
 <use MLS_random__uniform_swk_best_solution.pdf>
@@ -999,7 +999,7 @@ t line 539.
 (pdftex.def)             Requested size: 150.32726pt x 144.53845pt.
  [15 <./plot_problem6.pdf> <./statistical_model_problem6.pdf> <./MLS_random__un
 iform_swk_best_solution.pdf>]
-<new_plot.pdf, id=451, 433.62pt x 289.08pt>
+<new_plot.pdf, id=457, 433.62pt x 289.08pt>
 File: new_plot.pdf Graphic file (type pdf)
  <use new_plot.pdf>
 Package pdftex.def Info: new_plot.pdf used on input line 564.
@@ -1008,13 +1008,13 @@ Package pdftex.def Info: new_plot.pdf used on input line 564.
 \openout4 = `bu.aux'.
 
  (./or.bbl [18] [19] [20]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 242.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 258.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 1496) in paragraph at lines 239--244
+Underfull \hbox (badness 1496) in paragraph at lines 255--260
 \T1/cmtt/m/n/10.95 toscanosaul / bayesian _ quadrature _ optimization / tree / 
 master / multi _ start$[]\T1/ptm/m/n/10.95 .  Ac-cessed
  []
@@ -1033,10 +1033,10 @@ Package rerunfilecheck Info: File `or.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 675.
  ) 
 Here is how much of TeX's memory you used:
- 18849 strings out of 492995
- 321858 string characters out of 6132704
- 441365 words of memory out of 5000000
- 22064 multiletter control sequences out of 15000+600000
+ 18853 strings out of 492995
+ 321944 string characters out of 6132704
+ 440365 words of memory out of 5000000
+ 22066 multiletter control sequences out of 15000+600000
  78554 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,10n,46p,10353b,585s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1054,10 +1054,10 @@ texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on or.pdf (21 pages, 553771 bytes).
+Output written on or.pdf (21 pages, 554528 bytes).
 PDF statistics:
- 602 PDF objects out of 1000 (max. 8388607)
- 499 compressed objects within 5 object streams
- 88 named destinations out of 1000 (max. 500000)
+ 609 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 90 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

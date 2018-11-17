@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/MacPorts 2014_5)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: or.aux
 The style file: wsc.bst
 A level-1 auxiliary file: bu.aux
@@ -30,45 +30,45 @@ Warning--no number and no volume in Swersky:2014
 Warning--page numbers missing in Swersky:2014
 Warning--no number and no volume in multi_start
 Warning--page numbers missing in multi_start
-You've used 32 entries,
+You've used 34 entries,
             2956 wiz_defined-function locations,
-            824 strings with 10193 characters,
-and the built_in function-call counts, 23338 in all, are:
-= -- 1984
-> -- 1740
+            836 strings with 10554 characters,
+and the built_in function-call counts, 24828 in all, are:
+= -- 2115
+> -- 1860
 < -- 9
-+ -- 521
-- -- 579
-* -- 2098
-:= -- 4155
-add.period$ -- 104
-call.type$ -- 32
-change.case$ -- 207
-chr.to.int$ -- 32
-cite$ -- 58
-duplicate$ -- 643
-empty$ -- 1391
-format.name$ -- 675
-if$ -- 4442
-int.to.chr$ -- 1
++ -- 559
+- -- 619
+* -- 2248
+:= -- 4419
+add.period$ -- 110
+call.type$ -- 34
+change.case$ -- 221
+chr.to.int$ -- 33
+cite$ -- 60
+duplicate$ -- 675
+empty$ -- 1474
+format.name$ -- 722
+if$ -- 4723
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 37
-newline$ -- 195
-num.names$ -- 320
-pop$ -- 188
+missing$ -- 39
+newline$ -- 207
+num.names$ -- 338
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 431
+purify$ -- 457
 quote$ -- 0
-skip$ -- 702
+skip$ -- 736
 stack$ -- 0
-substring$ -- 1061
-swap$ -- 232
+substring$ -- 1139
+swap$ -- 241
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 684
+type$ -- 727
 warning$ -- 26
-while$ -- 294
+while$ -- 312
 width$ -- 0
-write$ -- 487
+write$ -- 515
 (There were 26 warnings)

@@ -87,6 +87,14 @@ Glasserman, P. 2013.
 \newblock New York, NY: Springer Science \& Business Media.
 
 
+\bibitem[\protect\citeauthoryear{Goldsman, Kim, Marshall, and Nelson}{Goldsman
+  et~al.}{2002}]{goldsman2002ranking}
+Goldsman, D., S.-H. Kim, W.~S. Marshall, and B.~L. Nelson. 2002.
+\newblock ``Ranking and selection for steady-state simulation: Procedures and
+  perspectives''.
+\newblock {\em INFORMS Journal on Computing\/}~14(1):2--19.
+
+
 \bibitem[\protect\citeauthoryear{Hennig and Schuler}{Hennig and
   Schuler}{2012}]{entropySearch}
 Hennig, P., and C.~Schuler. 2012.
@@ -110,8 +118,8 @@ Kandasamy, K., G.~Dasarathy, J.~Schneider, and B.~Poczos. 2017.
 
 
 \bibitem[\protect\citeauthoryear{Kim and Nelson}{Kim and
-  Nelson}{2006}]{kim:20062}
-Kim, S., and B.~Nelson. 2006.
+  Nelson}{2006a}]{kim:20062}
+Kim, S., and B.~Nelson. 2006a.
 \newblock ``Selecting the Best System''.
 \newblock In {\em Handbook in Operations Research and Management Science:
   Simulation}, edited by\ S.~Henderson and B.~Nelson,  501--534.
@@ -125,6 +133,14 @@ Kim, S., and B.~Nelson. 2007.
   by\ S.~{Henderson et al.},  162--172.
 \newblock Piscataway, New Jersey: Institute of Electrical and Electronics
   Engineers, Inc.
+
+\bibitem[\protect\citeauthoryear{Kim and Nelson}{Kim and
+  Nelson}{2006b}]{kim2006asymptotic}
+Kim, S.-H., and B.~L. Nelson. 2006b.
+\newblock ``On the asymptotic validity of fully sequential selection procedures
+  for steady-state simulation''.
+\newblock {\em Operations Research\/}~54(3):475--488.
+
 
 \bibitem[\protect\citeauthoryear{Kingma and Ba}{Kingma and Ba}{2014}]{adam}
 Kingma, D., and J.~Ba. 2014.
