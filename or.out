@@ -1,5 +1,5 @@
 \BOOKMARK [1][-]{section.1}{INTRODUCTION}{}% 1
-\BOOKMARK [1][-]{section.2}{THE SGD-GP STATISTICAL MODEL ON THE PATH OF SGD}{}% 2
+\BOOKMARK [1][-]{section.2}{THE SGD-GP STATISTICAL MODEL}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Inference Over M\(n\) in One-Dimension Given Hyperparameter }{section.2}% 3
 \BOOKMARK [2][-]{subsection.2.2}{Inference Over M\(n\) in Multiple Dimensions, Marginalizing over Hyperparameter }{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Inference Over f\(X_\)}{section.2}% 5
