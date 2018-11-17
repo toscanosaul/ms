@@ -165,9 +165,8 @@ The second contribution is this statistical model, which we call SGD-GP.  Using 
 This statistical model is derived from asymptotic theory for stochastic gradient descent \citep{kushner}, which shows 
 that $\sqrt{n}(x_{n}-x_{\infty})$ behaves asymptotically like an Ornstein-Uhlenbeck process under some conditions.
 This use of the asymptotic theory stands in contrast to existing approaches for modeling paths from SGD, discussed in more detail below. In some cases these existing approaches assume exponential rates of convergence while SGD does not converge exponentially fast, and none to our knowledge have been shown to be compatible with SGD's known asymptotic behavior.
+
 We also provide an implementation of both \abbrv\ and SGD-GP on github \citep{MLS}.
-Our approach often recovers a significantly better global solution than the best of these benchmarks 
-and achieves bencharks' solution quality with an order of magnitude less computation.
 
 We demonstrate that \abbrv\ together with SGD-GP substantially outperforms the best of four benchmarks:
 Equal Allocation;
@@ -177,9 +176,11 @@ together with the MLS allocation rule.
 While equal and random allocation are often considered weak benchmarks in the ranking and selection literature \citep{kim:20062}, they are more meaningful here because no other methods have been proposed for allocating effort in SGD 
 to our knowledge,
 making them the state of the art.  (\cite{Swersky:2014,Hutter:2015} considered other application settings, and their allocation rules do not apply directly to the setting we consider here.)
+Our approach often recovers a significantly better global solution than the best of these benchmarks 
+and achieves bencharks' solution quality with an order of magnitude less computation.
 
 Our numerical experiments use the 20-dimensional Rosenbrock function, and three one-dimensional objective functions: a concave function (we maximize rather than minimize), a multi-modal function, and an objective whose gradient is nearly zero over a substantial part of the interval.  This last problem is intended to replicate problems with many stationary points, as is believed to arise when training the weights of neural networks \citep{yoshua94}.
-Our 20-dimensional problem uses both noisy 
+Our 20-dimensional problem uses noisy observations of both gradients and the objective, while our one-dimensional problems assume that objective function observations are noise-free. 
 
 This journal paper extends a previous conference paper, \cite{multi_start}. Here, we remove two severe restrictions in that conference paper: one-dimensional inputs and noise-free observations of the objective function.  While we build on the version of SGD-GP proposed in that conference paper, handling multiple dimensions and noisy objective function observations requires substantial additional innovation.  Removing these restrictions makes our method relevant in practical problems.
 % PF: I'm going to comment this out for now, until we actually demonstrate this.
