@@ -28,45 +28,47 @@ Warning--page numbers missing in Neal:GPBayesian
 Warning--page numbers missing in sgd:Nemirovski
 Warning--no number and no volume in Swersky:2014
 Warning--page numbers missing in Swersky:2014
-You've used 30 entries,
+Warning--no number and no volume in multi_start
+Warning--page numbers missing in multi_start
+You've used 31 entries,
             2956 wiz_defined-function locations,
-            814 strings with 9932 characters,
-and the built_in function-call counts, 21916 in all, are:
-= -- 1854
-> -- 1636
+            817 strings with 10071 characters,
+and the built_in function-call counts, 22588 in all, are:
+= -- 1915
+> -- 1688
 < -- 9
-+ -- 487
-- -- 539
-* -- 1974
-:= -- 3901
-add.period$ -- 98
-call.type$ -- 30
-change.case$ -- 195
-chr.to.int$ -- 30
-cite$ -- 54
-duplicate$ -- 610
-empty$ -- 1311
-format.name$ -- 627
-if$ -- 4177
++ -- 503
+- -- 559
+* -- 2031
+:= -- 4024
+add.period$ -- 101
+call.type$ -- 31
+change.case$ -- 201
+chr.to.int$ -- 31
+cite$ -- 57
+duplicate$ -- 626
+empty$ -- 1346
+format.name$ -- 651
+if$ -- 4300
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 183
-num.names$ -- 300
-pop$ -- 180
+missing$ -- 36
+newline$ -- 189
+num.names$ -- 310
+pop$ -- 184
 preamble$ -- 1
-purify$ -- 405
+purify$ -- 418
 quote$ -- 0
-skip$ -- 658
+skip$ -- 680
 stack$ -- 0
-substring$ -- 998
-swap$ -- 222
+substring$ -- 1018
+swap$ -- 227
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 636
-warning$ -- 24
-while$ -- 273
+type$ -- 660
+warning$ -- 26
+while$ -- 283
 width$ -- 0
-write$ -- 459
-(There were 24 warnings)
+write$ -- 473
+(There were 26 warnings)

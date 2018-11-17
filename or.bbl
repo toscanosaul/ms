@@ -219,6 +219,14 @@ Swersky, K., J.~Snoek, and R.~Adams. 2014.
 \newblock {\em arXiv preprint arXiv:1406.3896\/}.
 
 
+\bibitem[\protect\citeauthoryear{Toscano-Palmerin and Frazier}{Toscano-Palmerin
+  and Frazier}{2018}]{multi_start}
+Toscano-Palmerin, S., and P.~I. Frazier. 2018.
+\newblock ``Effort Allocation and Statistical Inference for 1-Dimensional
+  Multistart Stochastic Gradient Descent''.
+\newblock {\em Winter Simulation Conference\/}.
+
+
 \bibitem[\protect\citeauthoryear{Toscano-Palmerin and
   Frazier}{Toscano-Palmerin, S. and P. I. Frazier}{2018}]{MLS}
 Toscano-Palmerin, S. and P. I. Frazier 2018.

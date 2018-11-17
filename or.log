@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_5) (preloaded format=pdflatex 2015.2.21)  10 NOV 2018 03:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/MacPorts 2014_5) (preloaded format=pdflatex 2015.2.21)  17 NOV 2018 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -37,9 +37,8 @@ Package: inputenc 2014/04/30 v1.2b Input encoding file
 
 (/opt/local/share/texmf-texlive/tex/latex/base/latin9.def
 File: latin9.def 2014/04/30 v1.2b Input encoding file
-))
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+)) (./geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
@@ -68,7 +67,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
-)
+
+(./geometry.cfg))
 (/opt/local/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
@@ -684,52 +684,44 @@ Package: bibunits 2004/05/12 v2.4 Multiple bibliographies in one document.
 )
 \gdef\bu@bibstyle{natbib}
 \gdef\bu@bibdata{or}
-(./or.aux
-
-LaTeX Warning: Label `eq:a' multiply defined.
-
-(./bu.aux))
+(./or.aux (./bu.aux))
 \openout1 = `or.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
-LaTeX Font Info:    ... okay on input line 109.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 109.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 113.
  (/opt/local/share/texmf-texlive/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
-
-Package geometry Warning: The marginal notes overrun the paper.
-     Add 11.32088pt and more to the right margin.
-
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=528.93675pt
-* \textheight=709.61174pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -780,7 +772,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 109.
+Package hyperref Info: Link coloring OFF on input line 113.
 
 (/opt/local/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -790,264 +782,271 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count177
 )
-LaTeX Info: Redefining \ref on input line 109.
-LaTeX Info: Redefining \pageref on input line 109.
-LaTeX Info: Redefining \nameref on input line 109.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 
 (./or.out) (./or.out)
 \@outlinefile=\write5
 \openout5 = `or.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 12
-6.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 13
+0.
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 12
-6.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 13
+0.
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 12
-6.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 13
+0.
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 12
-6.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 13
+0.
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 126.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 130.
 
 
 (/opt/local/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 126.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 139.
  [1
 
 {/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 155.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 159.
+ [2]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 170.
- [2] [3]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
+ [3] [4] [5] [6]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 221.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 221.
+(hyperref)                removing `\theta' on input line 222.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 221.
+(hyperref)                removing `math shift' on input line 222.
 
 
-Overfull \hbox (6.98491pt too wide) in paragraph at lines 229--232
+Overfull \hbox (9.11346pt too wide) in paragraph at lines 232--235
 \T1/ptm/m/n/12 where $\OT1/ztmcm/m/n/12 ^^F[]$ \T1/ptm/m/n/12 is the para-met-r
 ic pos-i-tive ker-nel of the Ornstein-Uhlenbeck pro-cess, which is $\OT1/ztmcm/
 m/n/12 ^^F[](\OML/ztmcm/m/it/12 n; n[]\OT1/ztmcm/m/n/12 ; \OML/ztmcm/m/it/12 ^^
-R\OT1/ztmcm/m/n/12 ) := \OML/ztmcm/m/it/12 ^^[[]e[]$
+R\OT1/ztmcm/m/n/12 ) :=
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 260.
+Overfull \hbox (100.75562pt too wide) in paragraph at lines 248--260
+\T1/ptm/m/n/12 where the vec-tors $\OML/ztmcm/m/it/12 ^^M[]$ \T1/ptm/m/n/12 and
+ $\OML/ztmcm/m/it/12 c[]$ \T1/ptm/m/n/12 are de-fined by $\OML/ztmcm/m/it/12 ^^
+M[] \OT1/ztmcm/m/n/12 := []$\T1/ptm/m/n/12 ,
+ []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 260.
-
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\theta' on input line 260.
+(hyperref)                removing `math shift' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 260.
-
-[4]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\infty' on input line 287.
+(hyperref)                removing `math shift' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `\theta' on input line 263.
 
-[5] [6] [7] [8] <plot_quadratic.pdf, id=273, 569.15106pt x 381.3426pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 263.
+
+
+Overfull \hbox (5.16356pt too wide) in alignment at lines 267--271
+ [][][] []
+ []
+
+[8]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\infty' on input line 302.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 302.
+
+[9] [10] [11] <plot_quadratic.pdf, id=274, 569.15106pt x 381.3426pt>
 File: plot_quadratic.pdf Graphic file (type pdf)
 
 <use plot_quadratic.pdf>
-Package pdftex.def Info: plot_quadratic.pdf used on input line 448.
-(pdftex.def)             Requested size: 169.26157pt x 151.77206pt.
+Package pdftex.def Info: plot_quadratic.pdf used on input line 445.
+(pdftex.def)             Requested size: 150.3206pt x 151.77206pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 448.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 445.
 
-<quadratic_stat_approx_lipschitz.pdf, id=274, 531.14568pt x 419.60172pt>
+<quadratic_stat_approx_lipschitz.pdf, id=275, 531.14568pt x 419.60172pt>
 File: quadratic_stat_approx_lipschitz.pdf Graphic file (type pdf)
 
 <use quadratic_stat_approx_lipschitz.pdf>
 Package pdftex.def Info: quadratic_stat_approx_lipschitz.pdf used on input line
- 452.
-(pdftex.def)             Requested size: 169.25688pt x 151.76718pt.
+ 449.
+(pdftex.def)             Requested size: 150.32448pt x 151.76718pt.
 
-<greedy_uniform_quadratic.pdf, id=275, 532.9282pt x 403.70976pt>
+Underfull \hbox (badness 4886) in paragraph at lines 449--449
+[]\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
+ []
+
+<greedy_uniform_quadratic.pdf, id=276, 532.9282pt x 403.70976pt>
 File: greedy_uniform_quadratic.pdf Graphic file (type pdf)
 
 <use greedy_uniform_quadratic.pdf>
-Package pdftex.def Info: greedy_uniform_quadratic.pdf used on input line 458.
-(pdftex.def)             Requested size: 169.26381pt x 144.54074pt.
-
-<plot_problem5.pdf, id=279, 552.64561pt x 377.98485pt>
+Package pdftex.def Info: greedy_uniform_quadratic.pdf used on input line 455.
+(pdftex.def)             Requested size: 150.3248pt x 144.54074pt.
+ [12] [13 <./plot_quadratic.pdf> <./quadratic_stat_approx_lipschitz.pdf> <./gre
+edy_uniform_quadratic.pdf>]
+<plot_problem5.pdf, id=342, 552.64561pt x 377.98485pt>
 File: plot_problem5.pdf Graphic file (type pdf)
  <use plot_problem5.pdf>
-Package pdftex.def Info: plot_problem5.pdf used on input line 475.
-(pdftex.def)             Requested size: 169.26079pt x 151.768pt.
+Package pdftex.def Info: plot_problem5.pdf used on input line 476.
+(pdftex.def)             Requested size: 150.32098pt x 151.768pt.
 
-<stat_model_problem5.pdf, id=280, 528.71814pt x 418.89038pt>
+<stat_model_problem5.pdf, id=343, 528.71814pt x 418.89038pt>
 File: stat_model_problem5.pdf Graphic file (type pdf)
 
 <use stat_model_problem5.pdf>
-Package pdftex.def Info: stat_model_problem5.pdf used on input line 480.
-(pdftex.def)             Requested size: 169.26587pt x 151.77196pt.
+Package pdftex.def Info: stat_model_problem5.pdf used on input line 481.
+(pdftex.def)             Requested size: 150.3232pt x 151.77196pt.
 
-<problem5_MLS_random__uniform_swk_best_solution.pdf, id=281, 561.36974pt x 427.
+Underfull \hbox (badness 4886) in paragraph at lines 481--481
+[]\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
+ []
+
+
+<problem5_MLS_random__uniform_swk_best_solution.pdf, id=344, 561.36974pt x 427.
 28122pt>
 File: problem5_MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf
 )
  <use problem5_MLS_random__uniform_swk_best_solution.pdf>
 Package pdftex.def Info: problem5_MLS_random__uniform_swk_best_solution.pdf use
-d on input line 486.
-(pdftex.def)             Requested size: 169.26022pt x 144.54347pt.
+d on input line 487.
+(pdftex.def)             Requested size: 150.32124pt x 144.54347pt.
 
-<plot_problem6.pdf, id=285, 561.2211pt x 372.1646pt>
+<plot_problem6.pdf, id=349, 561.2211pt x 372.1646pt>
 File: plot_problem6.pdf Graphic file (type pdf)
  <use plot_problem6.pdf>
-Package pdftex.def Info: plot_problem6.pdf used on input line 506.
-(pdftex.def)             Requested size: 169.25822pt x 151.76505pt.
+Package pdftex.def Info: plot_problem6.pdf used on input line 511.
+(pdftex.def)             Requested size: 150.32426pt x 151.76505pt.
 
-<statistical_model_problem6.pdf, id=286, 526.6288pt x 425.85478pt>
+<statistical_model_problem6.pdf, id=350, 526.6288pt x 425.85478pt>
 File: statistical_model_problem6.pdf Graphic file (type pdf)
 
 <use statistical_model_problem6.pdf>
-Package pdftex.def Info: statistical_model_problem6.pdf used on input line 511.
+Package pdftex.def Info: statistical_model_problem6.pdf used on input line 516.
 
-(pdftex.def)             Requested size: 169.26393pt x 151.76756pt.
+(pdftex.def)             Requested size: 150.32379pt x 151.76756pt.
 
-<MLS_random__uniform_swk_best_solution.pdf, id=287, 561.07248pt x 416.31857pt>
+Underfull \hbox (badness 4886) in paragraph at lines 516--516
+[]\T1/ptm/m/n/10.95 (b) |SGD-GP's pre-dic-tions and
+ []
+
+
+<MLS_random__uniform_swk_best_solution.pdf, id=351, 561.07248pt x 416.31857pt>
 File: MLS_random__uniform_swk_best_solution.pdf Graphic file (type pdf)
 
 <use MLS_random__uniform_swk_best_solution.pdf>
 Package pdftex.def Info: MLS_random__uniform_swk_best_solution.pdf used on inpu
-t line 517.
-(pdftex.def)             Requested size: 169.26477pt x 144.53845pt.
- [9 <./plot_quadratic.pdf> <./quadratic_stat_approx_lipschitz.pdf> <./greedy_un
-iform_quadratic.pdf>] [10 <./plot_problem5.pdf> <./stat_model_problem5.pdf> <./
-problem5_MLS_random__uniform_swk_best_solution.pdf> <./plot_problem6.pdf> <./st
-atistical_model_problem6.pdf> <./MLS_random__uniform_swk_best_solution.pdf>]
-<MLS_random__uniform_best_solution_multi.pdf, id=429, 462.52798pt x 346.89601pt
->
-File: MLS_random__uniform_best_solution_multi.pdf Graphic file (type pdf)
- <use MLS_random__uniform_best_solution_multi.pdf>
-Package pdftex.def Info: MLS_random__uniform_best_solution_multi.pdf used on in
-put line 539.
-(pdftex.def)             Requested size: 169.2624pt x 151.76662pt.
-File: quadratic_stat_approx_lipschitz.pdf Graphic file (type pdf)
+t line 522.
+(pdftex.def)             Requested size: 150.32726pt x 144.53845pt.
+ [14] [15 <./plot_problem5.pdf> <./stat_model_problem5.pdf> <./problem5_MLS_ran
+dom__uniform_swk_best_solution.pdf>] [16 <./plot_problem6.pdf> <./statistical_m
+odel_problem6.pdf> <./MLS_random__uniform_swk_best_solution.pdf>] <new_plot.pdf
+, id=446, 433.62pt x 289.08pt>
+File: new_plot.pdf Graphic file (type pdf)
 
-<use quadratic_stat_approx_lipschitz.pdf>
-Package pdftex.def Info: quadratic_stat_approx_lipschitz.pdf used on input line
- 567.
-(pdftex.def)             Requested size: 169.25688pt x 151.76718pt.
-
-<real_gradient_stat.pdf, id=434, 531.92673pt x 413.41843pt>
-File: real_gradient_stat.pdf Graphic file (type pdf)
-
-<use real_gradient_stat.pdf>
-Package pdftex.def Info: real_gradient_stat.pdf used on input line 569.
-(pdftex.def)             Requested size: 169.26227pt x 151.77016pt.
- [11 <./MLS_random__uniform_best_solution_multi.pdf>] [12 <./real_gradient_stat
-.pdf>]
-Overfull \hbox (8.51888pt too wide) in paragraph at lines 626--627
-[]$\OML/ztmcm/m/it/12 E[]Y[] \OT1/ztmcm/m/n/12 = \OML/ztmcm/m/it/12 g[] []$\T1/
-ptm/m/it/12 , where $\OML/ztmcm/m/it/12 g[]$ \T1/ptm/m/it/12 is con-tin-u-ously
- dif-fer-en-tiable for each $\OML/ztmcm/m/it/12 n$\T1/ptm/m/it/12 , and $\OML/z
-tmcm/m/it/12 g[] [] \OT1/ztmcm/m/n/12 = \OML/ztmcm/m/it/12 g[] [] \OT1/ztmcm/m/
-n/12 + \OML/ztmcm/m/it/12 g[] [] [] \OT1/ztmcm/m/n/12 +
- []
-
+<use new_plot.pdf>
+Package pdftex.def Info: new_plot.pdf used on input line 547.
+(pdftex.def)             Requested size: 234.8775pt x 156.58607pt.
+ [17 <./new_plot.pdf>] [18]
 \openout4 = `bu.aux'.
 
-(./or.bbl [13]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 227.
+ (./or.bbl [19] [20] [21]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 235.
 
- (/opt/local/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+
+(/opt/local/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 650.
+)
+Underfull \hbox (badness 1496) in paragraph at lines 232--237
+\T1/cmtt/m/n/10.95 toscanosaul / bayesian _ quadrature _ optimization / tree / 
+master / multi _ start$[]\T1/ptm/m/n/10.95 .  Ac-cessed
+ []
 
-[14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 658.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 658.
  (./or.aux
-Package cleveref Info: loaded `english' language definitions on input line 26.
+Package cleveref Info: loaded `english' language definitions on input line 24.
  (./bu.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 650.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 650.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 658.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 658.
 Package rerunfilecheck Info: File `or.out' has not changed.
-(rerunfilecheck)             Checksum: F91C71E882EB522C35F021E56029D0CB;1190.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 650.
+(rerunfilecheck)             Checksum: AF71B05585B49CC6D61EE497E6C81921;1016.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 658.
  ) 
 Here is how much of TeX's memory you used:
- 16846 strings out of 494213
- 282794 string characters out of 6157463
- 410902 words of memory out of 5000000
- 19800 multiletter control sequences out of 15000+600000
+ 16845 strings out of 494213
+ 282432 string characters out of 6157463
+ 408424 words of memory out of 5000000
+ 19803 multiletter control sequences out of 15000+600000
  78554 words of font info for 143 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 37i,10n,44p,10349b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,44p,10349b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/opt/local/share/texmf-texlive/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/op
 t/local/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</opt/local/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/local/share/texmf-texl
@@ -1061,10 +1060,10 @@ mbol/usyr.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb><
 /opt/local/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></opt/local/sha
 re/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-texli
 ve/fonts/type1/urw/times/utmri8a.pfb>
-Output written on or.pdf (14 pages, 602821 bytes).
+Output written on or.pdf (22 pages, 552868 bytes).
 PDF statistics:
- 596 PDF objects out of 1000 (max. 8388607)
- 495 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 597 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
