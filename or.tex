@@ -239,7 +239,7 @@ Before proceeding with this development, we briefly discuss generalization to ot
 \subsection{Inference Over $M(n)$ in One-Dimension Given Hyperparameter $\theta$}
 \label{sec:SGD-GP-1}
 
-\stedit{We first present a statistical model for $M(n)$, which allows inference from data  $x_{1:n}$ when the domain of the function is one-dimensional. We present this model for known hyperparameters in this section and extend it to unknown hyperparameters  and high-dimensional spaces in the next.}
+We first present a statistical model for $M(n)$, which allows inference from data  $x_{1:n}$ when the domain of the function is one-dimensional. We present this model for known hyperparameters in this section and extend it to unknown hyperparameters  and high-dimensional spaces in the next.
 
 Assuming that $X_{n}$ is one-dimensional, the asymptotic theory of SGD  (see the appendix) implies that 
 $M(n)=\sqrt{n}\left(X_{n}-X_{\infty}\right)$ behaves like an Ornstein-Uhlenbeck process when $n$ is large under mild assumptions.
@@ -250,12 +250,12 @@ M(\cdot) \mid \theta\sim GP\left(0,\Sigma_{0}\left(\cdot,\cdot; \theta\right)\ri
 where $\Sigma_{0}$ is the parametric positive kernel of the Ornstein-Uhlenbeck process, which is $\Sigma_{0}(n,n';\theta):=\sigma^{2}e^{-\theta\left|n-m\right|}$ (the {\it kernel}). 
 We additionally place a Bayesian prior distribution $\pi$ on $\theta$ \citep{Neal:GPBayesian}. If we lack a strong prior belief on $\theta$, we may use a flat prior.
 
-We now describe how to compute the posterior distribution on $M(n)$ given $\theta$ and the historical data $X_{1:n}=x_{1:n}$. \stedit{By the following relationship
+We now describe how to compute the posterior distribution on $M(n)$ given $\theta$ and the historical data $X_{1:n}=x_{1:n}$. By the following relationship
 
 \[
 \sqrt{n}\left(X_{n}-X_{n+1}\right)=M\left(n\right)-\sqrt{\frac{n}{n+1}}M\left(n+1\right),
 \]
-the conditioning formula for normal random vectors \citep{glasserman:mc} and algebraic manipulations}, this posterior distribution at time $n$ is given by
+the conditioning formula for normal random vectors \citep{glasserman:mc} and algebraic manipulations, this posterior distribution at time $n$ is given by
 \[
 M\left(n\right)\mid X_{1:n} = x_{1:n},\theta\sim N\left(\mu_{n}\left(n;\theta\right),\Sigma_{n}\left(n,n;\theta\right)\right)
 \]
@@ -269,11 +269,11 @@ M\left(n\right)\mid X_{1:n} = x_{1:n},\theta\sim N\left(\mu_{n}\left(n;\theta\ri
 % \[
 % \Sigma_{n}\left(n,n;\theta\right) =  \Sigma_{0}\left(n,n;\theta\right)-\gamma_{n}A_{n}^{-1}\gamma_{n}^\intercal,
 % \]
-where the vectors $\gamma_{n}$ and $c_{n}$ are defined by $\gamma_{n}:=\left(\Sigma_{0}\left(n,1;\theta\right)-\sqrt{\frac{1}{2}}\Sigma_{0}\left(n,2;\theta\right),\ldots,\Sigma_{0}\left(n,n-1;\theta\right)-\sqrt{\frac{n-1}{n}}\Sigma_{0}\left(n,n;\theta\right)\right)$, and
+where the vectors $\gamma_{n}$ and $c_{n}$ are defined by $\gamma_{n}:=(\Sigma_{0}\left(n,1;\theta\right)$ $-\sqrt{\frac{1}{2}}\Sigma_{0}\left(n,2;\theta\right),\ldots,\Sigma_{0}\left(n,n-1;\theta\right)-\sqrt{\frac{n-1}{n}}\Sigma_{0}\left(n,n;\theta\right))$, and
 $c_{n}:=\left(x_{1}-x_{2},\ldots,\sqrt{n-1}\left(x_{n-1}-x_{n}\right)\right)$,
 %$c_{n}:=\left(\left(x_{1}-x_{2}\right)-\beta_{0}\left(1;\theta\right),\ldots,\sqrt{n-1}\left(x_{n-1}-x_{n}\right)-\beta_{0}\left(n-1;\theta\right)\right)$,
 %where $\beta_{0}\left(n;\theta\right):=\mu_{0}\left(n;\theta\right)-\sqrt{\frac{n}{n+1}}\mu_{0}\left(n+1;\theta\right)$, 
-and the matrix $A_{n}$ by $A_{n}:=(\Sigma_{0}\left(i,j;\theta\right))_{i,j=1}^{n}$.
+and the matrix $A_{n}$ by \\$A_{n}:=(\Sigma_{0}\left(i,j;\theta\right))_{i,j=1}^{n}$.
 
 
 
@@ -301,7 +301,6 @@ where
 \Gamma_{0}\left(n,m;\theta\right) & := & \Sigma_{0}\left(n,m;\theta\right)+\sqrt{\frac{n}{n+1}}\sqrt{\frac{m}{m+1}}\Sigma_{0}\left(n+1,m+1;\theta\right)\\
  &  & -\sqrt{\frac{m}{m+1}}\Sigma_{0}\left(n,m+1;\theta\right)-\sqrt{\frac{n}{n+1}}\Sigma_{0}\left(n+1,m;\theta\right).
 \end{eqnarray*}
-\stcomment{add explanation of the previous computations}
 
 Since we can compute $p\left(\theta\mid X_{1:n} = x_{1:n}\right)$, we can sample $\theta$ from its posterior distribution using slice sampling. 
 
